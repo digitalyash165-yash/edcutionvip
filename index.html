@@ -1,147 +1,636 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="mr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Work From Home</title>
-    
-    <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '4380613462223935');
-    fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=4380613462223935&ev=PageView&noscript=1"
-    /></noscript>
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f0f2f5;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            padding: 20px;
-        }
-        .card {
-            background: white;
-            border-radius: 20px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-            max-width: 400px;
-            width: 100%;
-            padding: 30px;
-            text-align: center;
-        }
-        .header-text {
-            color: #d32f2f;
-            font-size: 24px;
-            font-weight: bold;
-            margin-bottom: 20px;
-        }
-        .logo-container {
-            width: 150px;
-            height: 150px;
-            margin: 0 auto 25px;
-            border-radius: 50%;
-            border: 4px solid #4caf50;
-            overflow: hidden;
-        }
-        .logo-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-        .features {
-            text-align: left;
-            margin-bottom: 30px;
-        }
-        .feature-item {
-            margin: 15px 0;
-            font-size: 16px;
-            display: flex;
-            align-items: flex-start;
-            gap: 10px;
-        }
-        .check-icon {
-            color: #4caf50;
-            font-weight: bold;
-        }
-        .btn-telegram {
-            background-color: #0088cc;
-            color: white;
-            text-decoration: none;
-            padding: 15px 20px;
-            border-radius: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 18px;
-            box-shadow: 0 4px 10px rgba(0, 136, 204, 0.3);
-            transition: transform 0.2s;
-        }
-        .btn-telegram:active {
-            transform: scale(0.98);
-        }
-        .telegram-icon {
-            width: 24px;
-            margin-right: 10px;
-        }
-        .footer-note {
-            margin-top: 20px;
-            font-size: 14px;
-            color: #666;
-        }
-        .fire {
-            margin-right: 5px;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>VIP ट्रेडर मराठी | Share Market Education</title>
+
+<!-- ================= META PIXEL ================= -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}
+(window, document, 'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '985513487549');
+fbq('track', 'PageView');
+</script>
+
+<noscript>
+<img
+height="1"
+width="1"
+style="display:none"
+src="https://www.facebook.com/tr?id=985513487549&ev=PageView&noscript=1"
+/>
+</noscript>
+<!-- =============== END META PIXEL =============== -->
+
+
+<style>
+*{
+  box-sizing:border-box;
+}
+
+html,body{
+  margin:0;
+  padding:0;
+  background:#050505;
+  color:#f4f4f4;
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+  min-height:100vh;
+}
+
+.wrap{
+  width:min(100%,470px);
+  margin:auto;
+  padding:10px 14px 24px;
+}
+
+.hero{
+  text-align:center;
+  padding-top:6px;
+}
+
+.profile{
+  width:138px;
+  height:138px;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid #f0b900;
+  box-shadow:0 0 22px rgba(240,185,0,.35);
+}
+
+.live{
+  display:inline-block;
+  margin-top:-10px;
+  position:relative;
+  background:#19c77a;
+  color:#fff;
+  font-size:12px;
+  font-weight:700;
+  border-radius:20px;
+  padding:5px 12px;
+  border:2px solid #050505;
+}
+
+h1{
+  font-size:27px;
+  color:#f5c400;
+  margin:10px 0 8px;
+  font-weight:800;
+}
+
+.crown{
+  font-size:27px;
+  margin-bottom:-4px;
+}
+
+.tag{
+  letter-spacing:2.5px;
+  color:#e8b900;
+  font-weight:800;
+  font-size:13px;
+}
+
+.sub{
+  color:#aaa;
+  font-weight:700;
+  letter-spacing:1.5px;
+  font-size:12px;
+  margin-top:12px;
+}
+
+.line{
+  height:1px;
+  background:linear-gradient(
+    90deg,
+    transparent,
+    #7c6415,
+    transparent
+  );
+  margin:14px 0 18px;
+}
+
+.stats{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  border:1px solid #3b321c;
+  border-radius:18px;
+  background:#0b0b08;
+  overflow:hidden;
+}
+
+.stat{
+  padding:13px 5px;
+  text-align:center;
+  border-right:1px solid #262217;
+  color:#f1c600;
+  font-weight:800;
+  font-size:14px;
+}
+
+.stat:last-child{
+  border:0;
+}
+
+.stat span{
+  display:block;
+  color:#999;
+  font-size:12px;
+  font-weight:400;
+  margin-top:6px;
+}
+
+.cta{
+  display:block;
+  text-decoration:none;
+  text-align:center;
+  background:linear-gradient(90deg,#1595d5,#08aef0);
+  color:#fff;
+  font-size:19px;
+  font-weight:800;
+  padding:18px 10px;
+  border-radius:17px;
+  margin:20px 0;
+  box-shadow:0 0 24px rgba(0,170,255,.55);
+  border:1px solid #29c6ff;
+}
+
+.card{
+  background:#0d0e09;
+  border:1px solid #3b321c;
+  border-radius:17px;
+  padding:15px;
+  margin:13px 0;
+  box-shadow:0 2px 10px rgba(0,0,0,.25);
+}
+
+.education{
+  display:flex;
+  gap:14px;
+  align-items:flex-start;
+}
+
+.icon{
+  font-size:25px;
+  min-width:28px;
+}
+
+.title{
+  font-weight:800;
+  color:#f0f0f0;
+  font-size:15px;
+}
+
+.yellow{
+  color:#f4c400;
+}
+
+.desc{
+  font-size:13px;
+  color:#aaa;
+  line-height:1.45;
+  margin-top:4px;
+}
+
+.green{
+  color:#38b96b;
+  font-size:12px;
+  margin-top:5px;
+}
+
+.three{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  gap:10px;
+}
+
+.mini{
+  text-align:center;
+  padding:14px 6px;
+}
+
+.mini .icon{
+  font-size:24px;
+}
+
+.mini .title{
+  margin-top:5px;
+}
+
+.feature{
+  display:flex;
+  gap:13px;
+  align-items:center;
+}
+
+.feature .iconbox{
+  width:40px;
+  height:40px;
+  border-radius:11px;
+  background:#161811;
+  border:1px solid #3a321d;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:23px;
+  flex:none;
+}
+
+.feature .title{
+  font-size:15px;
+}
+
+.submr{
+  color:#f0c300;
+  font-size:12px;
+  font-weight:700;
+  margin-top:3px;
+}
+
+.footer{
+  text-align:center;
+  color:#858585;
+  font-size:11px;
+  line-height:1.7;
+  margin-top:26px;
+}
+
+.footer strong{
+  color:#aaa;
+}
+
+.managed{
+  font-size:13px;
+  color:#999;
+  margin-top:18px;
+}
+
+.managed a{
+  color:#25a36b;
+  text-decoration:none;
+}
+
+.managed a:hover{
+  text-decoration:underline;
+}
+
+.flagline{
+  height:3px;
+  margin-top:18px;
+  background:linear-gradient(
+    90deg,
+    #ff9d00 0 33%,
+    #fff 33% 66%,
+    #159447 66%
+  );
+}
+
+@media(max-width:380px){
+  h1{
+    font-size:24px;
+  }
+
+  .cta{
+    font-size:17px;
+  }
+}
+</style>
+
 </head>
+
 <body>
 
-    <div class="card">
-        <div class="header-text">WORK FROM HOME 🏠</div>
-        
-        <div class="logo-container">
-            <img src="logo.png" alt="Profile Logo">
-        </div>
+<div class="wrap">
 
-        <div class="features">
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>STUDENTS 📚</strong> पढ़ाई के साथ EXTRA INCOME</span>
-            </div>
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>HOUSEWIFE 🏠</strong> खाली समय का सही इस्तेमाल</span>
-            </div>
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>JOB SEEKERS 💼</strong> के नए SOURCE</span>
-            </div>
-            <div class="feature-item">
-                <span class="check-icon">✅</span>
-                <span><strong>Handwriting Work Guidance</strong></span>
-            </div>
-        </div>
+<!-- ================= HERO ================= -->
 
-        <a href="https://t.me/+MP0rIDYLn0s1OGJl" class="btn-telegram">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" class="telegram-icon" alt="TG">
-            APPLY NOW (TELEGRAM)
-        </a>
+<section class="hero">
 
-        <div class="footer-note">
-            <span class="fire">🔥</span> Hurry! Limited Slots Available
-        </div>
-    </div>
+<img
+class="profile"
+src="profile.jpg"
+alt="VIP Trader Marathi"
+>
+
+<div class="live">
+● LIVE
+</div>
+
+<div class="crown">
+👑
+</div>
+
+<h1>
+VIP ट्रेडर मराठी ▪
+</h1>
+
+<div class="tag">
+SHARE MARKET EDUCATION
+</div>
+
+<div class="sub">
+🚩 जय महाराष्ट्र 🚩
+</div>
+
+<div class="sub">
+MAHARASHTRA • FREE TELEGRAM CHANNEL
+</div>
+
+<div class="line"></div>
+
+</section>
+
+
+<!-- ================= STATS ================= -->
+
+<div class="stats">
+
+<div class="stat">
+👑 VIP
+<span>Free</span>
+</div>
+
+<div class="stat">
+रोज
+<span>Daily Edu</span>
+</div>
+
+<div class="stat">
+मराठी
+<span>+ Hindi</span>
+</div>
+
+</div>
+
+
+<!-- ================= MAIN TELEGRAM BUTTON ================= -->
+
+<a
+class="cta"
+href="https://t.me/+8myX0Ct4j685YzU9"
+target="_blank"
+rel="noopener"
+onclick="fbq('track','Lead');"
+>
+◉ मोफत Channel Join करा!
+</a>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<div class="card education">
+
+<div class="icon">
+🎓
+</div>
+
+<div>
+
+<div class="title yellow">
+100% Educational Content
+</div>
+
+<div class="desc">
+Share market basics, chart analysis aur market concepts —
+बिलकुल free.
+</div>
+
+<div class="green">
+गुंतवणुकीचा सल्ला नाही — केवळ शिक्षण
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= THREE CARDS ================= -->
+
+<div class="three">
+
+<div class="card mini">
+
+<div class="icon">
+👑
+</div>
+
+<div class="title yellow">
+VIP
+</div>
+
+<div class="desc">
+Content
+</div>
+
+</div>
+
+
+<div class="card mini">
+
+<div class="icon">
+🚩
+</div>
+
+<div class="title yellow">
+महाराष्ट्र
+</div>
+
+<div class="desc">
+Proud
+</div>
+
+</div>
+
+
+<div class="card mini">
+
+<div class="icon">
+🆓
+</div>
+
+<div class="title yellow">
+मोफत
+</div>
+
+<div class="desc">
+Free Join
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= FEATURE 1 ================= -->
+
+<div class="card feature">
+
+<div class="iconbox">
+📚
+</div>
+
+<div>
+
+<div class="title">
+Share Market Basic Knowledge
+</div>
+
+<div class="submr">
+शेअर मार्केट मूलभूत ज्ञान
+</div>
+
+<div class="desc">
+Stocks, indices, F&O — zero se explained
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= FEATURE 2 ================= -->
+
+<div class="card feature">
+
+<div class="iconbox">
+📊
+</div>
+
+<div>
+
+<div class="title">
+Nifty & BankNifty Education
+</div>
+
+<div class="submr">
+दैनिक बाजार शिक्षण
+</div>
+
+<div class="desc">
+Daily market educational breakdown — free
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= FEATURE 3 ================= -->
+
+<div class="card feature">
+
+<div class="iconbox">
+🕯️
+</div>
+
+<div>
+
+<div class="title">
+Chart & Technical Concepts
+</div>
+
+<div class="submr">
+चार्ट विश्लेषण शिका
+</div>
+
+<div class="desc">
+Candlestick patterns — simply explained
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= FEATURE 4 ================= -->
+
+<div class="card feature">
+
+<div class="iconbox">
+🇮🇳
+</div>
+
+<div>
+
+<div class="title">
+मराठी शिका — मोफत
+</div>
+
+<div class="submr">
+आपल्या भाषेत शेअर मार्केट
+</div>
+
+<div class="desc">
+Apni bhasha mein share market seekho
+</div>
+
+</div>
+
+</div>
+
+
+<!-- ================= FOOTER ================= -->
+
+<div class="footer">
+
+केवळ शैक्षणिक उद्देशांसाठी.
+गुंतवणुकीचा सल्ला नाही.
+
+<br>
+
+<strong>
+For educational purposes only.
+Not investment advice.
+</strong>
+
+<br>
+
+Investments in securities are subject to market risk.
+
+<br>
+
+Past performance is not indicative of future results.
+
+
+<!-- ================= ADS MANAGED LINK ================= -->
+
+<div class="managed">
+
+ads Managed by
+
+<a
+href="https://t.me/+60VgI7emtM83ZGY9"
+target="_blank"
+rel="noopener"
+>
+<b>Yash</b>
+</a>
+
+</div>
+
+
+<div class="flagline"></div>
+
+</div>
+
+</div>
 
 </body>
 </html>
